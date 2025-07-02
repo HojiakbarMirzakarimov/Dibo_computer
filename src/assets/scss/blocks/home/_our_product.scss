@@ -1,0 +1,26 @@
+.section__our__product {
+    margin-top: 28px;
+
+    .products-list {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+
+        .product-item {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+            border: 1px solid black;
+            width: 204px;
+            height: 84px;
+            justify-content: center;
+
+            h2 {
+                font-family: $roboto;
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
+    }
+}
